@@ -1,7 +1,7 @@
 import json
 import re
 
-filename = 'output.json'
+filename = 'output-latest.json'
 
 try:
     with open(filename, 'r') as file:
@@ -11,15 +11,53 @@ except FileNotFoundError:
 except json.JSONDecodeError:
     print(f"Error: Could not decode JSON from '{filename}'.")
 
+# Too lazy, generated using ChatGPT, works fine for libsodium v1.0.20
+pattern = r"""
+^
+(?:const\s+)?                             # optional leading const
 
-PRIMITIVES = {"int", "long", "float", "double", "char", "string", "bool", "void"}
+(?:
+      void
+    | char
+    | unsigned\s+char
+    | signed\s+char
+    | short
+    | unsigned\s+short
+    | int
+    | unsigned\s+int
+    | long
+    | unsigned\s+long
+    | long\s+long
+    | unsigned\s+long\s+long
+    | float
+    | double
+    | long\s+double
+    | _?Bool
+    | u?int(?:8|16|32|64)_t              # stdint types
+)
+
+(?:\s+const)?                             # optional trailing const
+
+(?:                                       # pointer chain
+    \s*\*+\s*(?:const)?                   # one pointer layer, optional const
+)*
+
+\s*
+(?:\[\s*\d*\s*\])?                        # optional array: [], [N], [ANY]
+
+(?:\s*\(\s*\*\s*\)\s*\([^()]*\))?         # optional function pointer
+
+$
+"""
+
+primitive_regex = re.compile(pattern, re.VERBOSE)
 
 def is_primitive(t: str) -> bool:
-    return any(p in t for p in PRIMITIVES)
+    return primitive_regex.match(t)
 
-def sanitize_type (param_type: str) -> str:
-    sanitized = param_type.replace(" *", "")
-    sanitized = sanitized.replace("const ", "")
+def sanitize_type_for_validation (param_type: str) -> str:
+    sanitized = param_type.removesuffix(" *")
+    sanitized = sanitized.removeprefix("const ")
     return sanitized
 
 struct_names = {item["name"] for item in captures if item["capture"] == "struct"}
@@ -32,7 +70,7 @@ for item in captures:
         func_name = item["name"]
 
         for param in item.get("params", []):
-            ptype = sanitize_type(param["type"])
+            ptype = sanitize_type_for_validation(param["type"])
 
             if is_primitive(ptype):
                 continue

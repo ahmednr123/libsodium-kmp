@@ -7,31 +7,31 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_aes256gcm_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_aes256gcm_nsecbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_aes256gcm_npubbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_aes256gcm_abytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_aes256gcm_messagebytes_max",
         "params": []
     },
@@ -52,7 +52,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_aes256gcm_statebytes",
         "params": []
     },
@@ -436,19 +436,19 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_salsa208_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_salsa208_noncebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_salsa208_messagebytes_max",
         "params": []
     },
@@ -515,13 +515,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_scalarmult_curve25519_bytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_scalarmult_curve25519_scalarbytes",
         "params": []
     },
@@ -561,7 +561,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_verify_32_bytes",
         "params": []
     },
@@ -582,13 +582,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_scalarmult_ed25519_bytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_scalarmult_ed25519_scalarbytes",
         "params": []
     },
@@ -662,19 +662,19 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_xchacha20_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_xchacha20_noncebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_xchacha20_messagebytes_max",
         "params": []
     },
@@ -790,13 +790,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_hash_sha512_statebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_hash_sha512_bytes",
         "params": []
     },
@@ -866,31 +866,31 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_ed25519_bytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_ed25519_uniformbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_ed25519_hashbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_ed25519_scalarbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_ed25519_nonreducedscalarbytes",
         "params": []
     },
@@ -976,7 +976,7 @@
                 "name": "msg"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "msg_len"
             },
             {
@@ -1003,7 +1003,7 @@
                 "name": "msg"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "msg_len"
             },
             {
@@ -1164,13 +1164,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_shorthash_bytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_shorthash_keybytes",
         "params": []
     },
@@ -1234,13 +1234,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_hash_sha256_statebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_hash_sha256_bytes",
         "params": []
     },
@@ -1310,19 +1310,19 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kdf_hkdf_sha512_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kdf_hkdf_sha512_bytes_min",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kdf_hkdf_sha512_bytes_max",
         "params": []
     },
@@ -1340,7 +1340,7 @@
                 "name": "salt"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "salt_len"
             },
             {
@@ -1348,7 +1348,7 @@
                 "name": "ikm"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "ikm_len"
             }
         ]
@@ -1374,7 +1374,7 @@
                 "name": "out"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "out_len"
             },
             {
@@ -1382,7 +1382,7 @@
                 "name": "ctx"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "ctx_len"
             },
             {
@@ -1403,7 +1403,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kdf_hkdf_sha512_statebytes",
         "params": []
     },
@@ -1421,7 +1421,7 @@
                 "name": "salt"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "salt_len"
             }
         ]
@@ -1440,7 +1440,7 @@
                 "name": "ikm"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "ikm_len"
             }
         ]
@@ -1462,43 +1462,43 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_curve25519xchacha20poly1305_seedbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_curve25519xchacha20poly1305_publickeybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_curve25519xchacha20poly1305_secretkeybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_curve25519xchacha20poly1305_beforenmbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_curve25519xchacha20poly1305_noncebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_curve25519xchacha20poly1305_macbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_curve25519xchacha20poly1305_messagebytes_max",
         "params": []
     },
@@ -1805,7 +1805,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_curve25519xchacha20poly1305_sealbytes",
         "params": []
     },
@@ -1867,37 +1867,37 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2id_bytes_min",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2id_bytes_max",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2id_passwd_min",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2id_passwd_max",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2id_saltbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2id_strbytes",
         "params": []
     },
@@ -1921,13 +1921,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2id_memlimit_min",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2id_memlimit_max",
         "params": []
     },
@@ -1939,7 +1939,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2id_memlimit_interactive",
         "params": []
     },
@@ -1951,7 +1951,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2id_memlimit_moderate",
         "params": []
     },
@@ -1963,7 +1963,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2id_memlimit_sensitive",
         "params": []
     },
@@ -1997,7 +1997,7 @@
                 "name": "opslimit"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "memlimit"
             },
             {
@@ -2028,7 +2028,7 @@
                 "name": "opslimit"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "memlimit"
             }
         ]
@@ -2066,26 +2066,26 @@
                 "name": "opslimit"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "memlimit"
             }
         ]
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_xsalsa20_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_xsalsa20_noncebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_xsalsa20_messagebytes_max",
         "params": []
     },
@@ -2183,31 +2183,31 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_chacha20poly1305_ietf_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_chacha20poly1305_ietf_nsecbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_chacha20poly1305_ietf_npubbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_chacha20poly1305_ietf_abytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_chacha20poly1305_ietf_messagebytes_max",
         "params": []
     },
@@ -2400,31 +2400,31 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_chacha20poly1305_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_chacha20poly1305_nsecbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_chacha20poly1305_npubbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_chacha20poly1305_abytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_chacha20poly1305_messagebytes_max",
         "params": []
     },
@@ -2617,19 +2617,19 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_noncebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_messagebytes_max",
         "params": []
     },
@@ -2721,7 +2721,7 @@
                 "name": "uniform"
             },
             {
-                "type": "void (*)(void *const, const int)",
+                "type": "void (*)(void *const, const size_t)",
                 "name": "buf"
             },
             {
@@ -2732,7 +2732,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "randombytes_seedbytes",
         "params": []
     },
@@ -2746,7 +2746,7 @@
                 "name": "buf"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "size"
             }
         ]
@@ -2761,7 +2761,7 @@
                 "name": "buf"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "size"
             },
             {
@@ -2833,7 +2833,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_verify_16_bytes",
         "params": []
     },
@@ -2854,19 +2854,19 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_salsa2012_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_salsa2012_noncebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_salsa2012_messagebytes_max",
         "params": []
     },
@@ -2933,13 +2933,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_xof_shake256_blockbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_xof_shake256_statebytes",
         "params": []
     },
@@ -2969,7 +2969,7 @@
                 "name": "out"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "outlen"
             },
             {
@@ -3041,7 +3041,7 @@
                 "name": "out"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "outlen"
             }
         ]
@@ -3060,20 +3060,20 @@
                 "name": "out"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "outlen"
             }
         ]
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_auth_bytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_auth_keybytes",
         "params": []
     },
@@ -3142,13 +3142,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_auth_hmacsha512256_bytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_auth_hmacsha512256_keybytes",
         "params": []
     },
@@ -3205,7 +3205,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_auth_hmacsha512256_statebytes",
         "params": []
     },
@@ -3223,7 +3223,7 @@
                 "name": "key"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "keylen"
             }
         ]
@@ -3275,25 +3275,25 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kdf_blake2b_bytes_min",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kdf_blake2b_bytes_max",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kdf_blake2b_contextbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kdf_blake2b_keybytes",
         "params": []
     },
@@ -3307,7 +3307,7 @@
                 "name": "subkey"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "subkey_len"
             },
             {
@@ -3326,31 +3326,31 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_xchacha20poly1305_ietf_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_xchacha20poly1305_ietf_nsecbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_xchacha20poly1305_ietf_npubbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_xchacha20poly1305_ietf_abytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_xchacha20poly1305_ietf_messagebytes_max",
         "params": []
     },
@@ -3543,19 +3543,19 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretbox_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretbox_noncebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretbox_macbytes",
         "params": []
     },
@@ -3567,7 +3567,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretbox_messagebytes_max",
         "params": []
     },
@@ -3700,13 +3700,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretbox_zerobytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretbox_boxzerobytes",
         "params": []
     },
@@ -3776,37 +3776,37 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_sign_ed25519ph_statebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_sign_ed25519_bytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_sign_ed25519_seedbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_sign_ed25519_publickeybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_sign_ed25519_secretkeybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_sign_ed25519_messagebytes_max",
         "params": []
     },
@@ -4082,25 +4082,25 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_salsa20_outputbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_salsa20_inputbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_salsa20_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_salsa20_constbytes",
         "params": []
     },
@@ -4129,25 +4129,25 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretstream_xchacha20poly1305_abytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretstream_xchacha20poly1305_headerbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretstream_xchacha20poly1305_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretstream_xchacha20poly1305_messagebytes_max",
         "params": []
     },
@@ -4195,7 +4195,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretstream_xchacha20poly1305_statebytes",
         "params": []
     },
@@ -4339,13 +4339,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_scalarmult_bytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_scalarmult_scalarbytes",
         "params": []
     },
@@ -4409,37 +4409,37 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_bytes_min",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_bytes_max",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_passwd_min",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_passwd_max",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_saltbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_strbytes",
         "params": []
     },
@@ -4463,13 +4463,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_memlimit_min",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_memlimit_max",
         "params": []
     },
@@ -4481,7 +4481,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_memlimit_interactive",
         "params": []
     },
@@ -4493,7 +4493,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_memlimit_moderate",
         "params": []
     },
@@ -4505,7 +4505,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_memlimit_sensitive",
         "params": []
     },
@@ -4539,7 +4539,7 @@
                 "name": "opslimit"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "memlimit"
             },
             {
@@ -4570,7 +4570,7 @@
                 "name": "opslimit"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "memlimit"
             }
         ]
@@ -4597,7 +4597,7 @@
                 "name": "opslimit"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "memlimit"
             },
             {
@@ -4639,7 +4639,7 @@
                 "name": "opslimit"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "memlimit"
             }
         ]
@@ -4660,7 +4660,7 @@
                 "name": "pnt"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "len"
             }
         ]
@@ -4671,7 +4671,7 @@
         "name": "sodium_stackzero",
         "params": [
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "len"
             }
         ]
@@ -4690,7 +4690,7 @@
                 "name": "b2_"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "len"
             }
         ]
@@ -4709,7 +4709,7 @@
                 "name": "b2_"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "len"
             }
         ]
@@ -4724,7 +4724,7 @@
                 "name": "n"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "nlen"
             }
         ]
@@ -4739,7 +4739,7 @@
                 "name": "n"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "nlen"
             }
         ]
@@ -4758,7 +4758,7 @@
                 "name": "b"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "len"
             }
         ]
@@ -4777,7 +4777,7 @@
                 "name": "b"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "len"
             }
         ]
@@ -4792,7 +4792,7 @@
                 "name": "hex"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "hex_maxlen"
             },
             {
@@ -4800,7 +4800,7 @@
                 "name": "bin"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "bin_len"
             }
         ]
@@ -4815,7 +4815,7 @@
                 "name": "bin"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "bin_maxlen"
             },
             {
@@ -4823,7 +4823,7 @@
                 "name": "hex"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "hex_len"
             },
             {
@@ -4831,7 +4831,7 @@
                 "name": "ignore"
             },
             {
-                "type": "int *const",
+                "type": "size_t *const",
                 "name": "bin_len"
             },
             {
@@ -4842,11 +4842,11 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "sodium_base64_encoded_len",
         "params": [
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "bin_len"
             },
             {
@@ -4865,7 +4865,7 @@
                 "name": "b64"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "b64_maxlen"
             },
             {
@@ -4873,7 +4873,7 @@
                 "name": "bin"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "bin_len"
             },
             {
@@ -4892,7 +4892,7 @@
                 "name": "bin"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "bin_maxlen"
             },
             {
@@ -4900,7 +4900,7 @@
                 "name": "b64"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "b64_len"
             },
             {
@@ -4908,7 +4908,7 @@
                 "name": "ignore"
             },
             {
-                "type": "int *const",
+                "type": "size_t *const",
                 "name": "bin_len"
             },
             {
@@ -4931,7 +4931,7 @@
                 "name": "addr"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "len"
             }
         ]
@@ -4946,7 +4946,7 @@
                 "name": "addr"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "len"
             }
         ]
@@ -4957,7 +4957,7 @@
         "name": "sodium_malloc",
         "params": [
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "size"
             }
         ]
@@ -4968,11 +4968,11 @@
         "name": "sodium_allocarray",
         "params": [
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "count"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "size"
             }
         ]
@@ -5027,7 +5027,7 @@
         "name": "sodium_pad",
         "params": [
             {
-                "type": "int *",
+                "type": "size_t *",
                 "name": "padded_buflen_p"
             },
             {
@@ -5035,15 +5035,15 @@
                 "name": "buf"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "unpadded_buflen"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "blocksize"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "max_buflen"
             }
         ]
@@ -5054,7 +5054,7 @@
         "name": "sodium_unpad",
         "params": [
             {
-                "type": "int *",
+                "type": "size_t *",
                 "name": "unpadded_buflen_p"
             },
             {
@@ -5062,11 +5062,11 @@
                 "name": "buf"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "padded_buflen"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "blocksize"
             }
         ]
@@ -5079,19 +5079,19 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_salsa20_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_salsa20_noncebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_salsa20_messagebytes_max",
         "params": []
     },
@@ -5199,19 +5199,19 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_onetimeauth_poly1305_statebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_onetimeauth_poly1305_bytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_onetimeauth_poly1305_keybytes",
         "params": []
     },
@@ -5323,37 +5323,37 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_seedbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_publickeybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_secretkeybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_noncebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_macbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_messagebytes_max",
         "params": []
     },
@@ -5531,7 +5531,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_beforenmbytes",
         "params": []
     },
@@ -5672,7 +5672,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_sealbytes",
         "params": []
     },
@@ -5728,13 +5728,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_zerobytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_boxzerobytes",
         "params": []
     },
@@ -5856,7 +5856,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_hash_bytes",
         "params": []
     },
@@ -5887,31 +5887,31 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_aegis256_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_aegis256_nsecbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_aegis256_npubbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_aegis256_abytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_aegis256_messagebytes_max",
         "params": []
     },
@@ -6104,13 +6104,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_auth_hmacsha512_bytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_auth_hmacsha512_keybytes",
         "params": []
     },
@@ -6176,7 +6176,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_auth_hmacsha512_statebytes",
         "params": []
     },
@@ -6194,7 +6194,7 @@
                 "name": "key"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "keylen"
             }
         ]
@@ -6246,19 +6246,19 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kdf_hkdf_sha256_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kdf_hkdf_sha256_bytes_min",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kdf_hkdf_sha256_bytes_max",
         "params": []
     },
@@ -6276,7 +6276,7 @@
                 "name": "salt"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "salt_len"
             },
             {
@@ -6284,7 +6284,7 @@
                 "name": "ikm"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "ikm_len"
             }
         ]
@@ -6310,7 +6310,7 @@
                 "name": "out"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "out_len"
             },
             {
@@ -6318,7 +6318,7 @@
                 "name": "ctx"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "ctx_len"
             },
             {
@@ -6339,7 +6339,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kdf_hkdf_sha256_statebytes",
         "params": []
     },
@@ -6357,7 +6357,7 @@
                 "name": "salt"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "salt_len"
             }
         ]
@@ -6376,7 +6376,7 @@
                 "name": "ikm"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "ikm_len"
             }
         ]
@@ -6398,19 +6398,19 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_chacha20_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_chacha20_noncebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_chacha20_messagebytes_max",
         "params": []
     },
@@ -6508,19 +6508,19 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_chacha20_ietf_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_chacha20_ietf_noncebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_stream_chacha20_ietf_messagebytes_max",
         "params": []
     },
@@ -6618,13 +6618,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_scalarmult_ristretto255_bytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_scalarmult_ristretto255_scalarbytes",
         "params": []
     },
@@ -6664,25 +6664,25 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretbox_xsalsa20poly1305_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretbox_xsalsa20poly1305_noncebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretbox_xsalsa20poly1305_macbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretbox_xsalsa20poly1305_messagebytes_max",
         "params": []
     },
@@ -6699,13 +6699,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretbox_xsalsa20poly1305_boxzerobytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretbox_xsalsa20poly1305_zerobytes",
         "params": []
     },
@@ -6765,13 +6765,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_xof_turboshake128_blockbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_xof_turboshake128_statebytes",
         "params": []
     },
@@ -6801,7 +6801,7 @@
                 "name": "out"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "outlen"
             },
             {
@@ -6873,7 +6873,7 @@
                 "name": "out"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "outlen"
             }
         ]
@@ -6892,20 +6892,20 @@
                 "name": "out"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "outlen"
             }
         ]
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_xof_shake128_blockbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_xof_shake128_statebytes",
         "params": []
     },
@@ -6935,7 +6935,7 @@
                 "name": "out"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "outlen"
             },
             {
@@ -7007,7 +7007,7 @@
                 "name": "out"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "outlen"
             }
         ]
@@ -7026,32 +7026,32 @@
                 "name": "out"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "outlen"
             }
         ]
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretbox_xchacha20poly1305_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretbox_xchacha20poly1305_noncebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretbox_xchacha20poly1305_macbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_secretbox_xchacha20poly1305_messagebytes_max",
         "params": []
     },
@@ -7179,37 +7179,37 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2i_bytes_min",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2i_bytes_max",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2i_passwd_min",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2i_passwd_max",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2i_saltbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2i_strbytes",
         "params": []
     },
@@ -7233,13 +7233,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2i_memlimit_min",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2i_memlimit_max",
         "params": []
     },
@@ -7251,7 +7251,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2i_memlimit_interactive",
         "params": []
     },
@@ -7263,7 +7263,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2i_memlimit_moderate",
         "params": []
     },
@@ -7275,7 +7275,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_argon2i_memlimit_sensitive",
         "params": []
     },
@@ -7309,7 +7309,7 @@
                 "name": "opslimit"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "memlimit"
             },
             {
@@ -7340,7 +7340,7 @@
                 "name": "opslimit"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "memlimit"
             }
         ]
@@ -7378,7 +7378,7 @@
                 "name": "opslimit"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "memlimit"
             }
         ]
@@ -7395,55 +7395,55 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_generichash_blake2b_bytes_min",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_generichash_blake2b_bytes_max",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_generichash_blake2b_bytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_generichash_blake2b_keybytes_min",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_generichash_blake2b_keybytes_max",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_generichash_blake2b_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_generichash_blake2b_saltbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_generichash_blake2b_personalbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_generichash_blake2b_statebytes",
         "params": []
     },
@@ -7457,7 +7457,7 @@
                 "name": "out"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "outlen"
             },
             {
@@ -7473,7 +7473,7 @@
                 "name": "key"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "keylen"
             }
         ]
@@ -7488,7 +7488,7 @@
                 "name": "out"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "outlen"
             },
             {
@@ -7504,7 +7504,7 @@
                 "name": "key"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "keylen"
             },
             {
@@ -7531,11 +7531,11 @@
                 "name": "key"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "keylen"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "outlen"
             }
         ]
@@ -7554,11 +7554,11 @@
                 "name": "key"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "keylen"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "outlen"
             },
             {
@@ -7604,7 +7604,7 @@
                 "name": "out"
             },
             {
-                "type": "const int",
+                "type": "const size_t",
                 "name": "outlen"
             }
         ]
@@ -7622,37 +7622,37 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_scryptsalsa208sha256_bytes_min",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_scryptsalsa208sha256_bytes_max",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_scryptsalsa208sha256_passwd_min",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_scryptsalsa208sha256_passwd_max",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_scryptsalsa208sha256_saltbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_scryptsalsa208sha256_strbytes",
         "params": []
     },
@@ -7676,13 +7676,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_scryptsalsa208sha256_memlimit_min",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_scryptsalsa208sha256_memlimit_max",
         "params": []
     },
@@ -7694,7 +7694,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_scryptsalsa208sha256_memlimit_interactive",
         "params": []
     },
@@ -7706,7 +7706,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_pwhash_scryptsalsa208sha256_memlimit_sensitive",
         "params": []
     },
@@ -7740,7 +7740,7 @@
                 "name": "opslimit"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "memlimit"
             }
         ]
@@ -7767,7 +7767,7 @@
                 "name": "opslimit"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "memlimit"
             }
         ]
@@ -7801,7 +7801,7 @@
                 "name": "passwd"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "passwdlen"
             },
             {
@@ -7809,7 +7809,7 @@
                 "name": "salt"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "saltlen"
             },
             {
@@ -7829,7 +7829,7 @@
                 "name": "buf"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "buflen"
             }
         ]
@@ -7848,20 +7848,20 @@
                 "name": "opslimit"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "memlimit"
             }
         ]
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_shorthash_siphash24_bytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_shorthash_siphash24_keybytes",
         "params": []
     },
@@ -7890,13 +7890,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_shorthash_siphashx24_bytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_shorthash_siphashx24_keybytes",
         "params": []
     },
@@ -7925,25 +7925,25 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_ristretto255_bytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_ristretto255_hashbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_ristretto255_scalarbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_ristretto255_nonreducedscalarbytes",
         "params": []
     },
@@ -8029,7 +8029,7 @@
                 "name": "msg"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "msg_len"
             },
             {
@@ -8056,7 +8056,7 @@
                 "name": "msg"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "msg_len"
             },
             {
@@ -8217,31 +8217,31 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_aegis128l_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_aegis128l_nsecbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_aegis128l_npubbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_aegis128l_abytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_aead_aegis128l_messagebytes_max",
         "params": []
     },
@@ -8434,25 +8434,25 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_hchacha20_outputbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_hchacha20_inputbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_hchacha20_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_hchacha20_constbytes",
         "params": []
     },
@@ -8481,7 +8481,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_verify_64_bytes",
         "params": []
     },
@@ -8502,7 +8502,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_keccak1600_statebytes",
         "params": []
     },
@@ -8531,11 +8531,11 @@
                 "name": "bytes"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "offset"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "length"
             }
         ]
@@ -8554,11 +8554,11 @@
                 "name": "bytes"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "offset"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "length"
             }
         ]
@@ -8587,25 +8587,25 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_salsa2012_outputbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_salsa2012_inputbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_salsa2012_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_salsa2012_constbytes",
         "params": []
     },
@@ -8634,25 +8634,25 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kdf_bytes_min",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kdf_bytes_max",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kdf_contextbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kdf_keybytes",
         "params": []
     },
@@ -8672,7 +8672,7 @@
                 "name": "subkey"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "subkey_len"
             },
             {
@@ -8707,19 +8707,19 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_onetimeauth_statebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_onetimeauth_bytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_onetimeauth_keybytes",
         "params": []
     },
@@ -8837,25 +8837,25 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_salsa208_outputbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_salsa208_inputbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_salsa208_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_salsa208_constbytes",
         "params": []
     },
@@ -9040,43 +9040,43 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_curve25519xsalsa20poly1305_seedbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_curve25519xsalsa20poly1305_publickeybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_curve25519xsalsa20poly1305_secretkeybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_curve25519xsalsa20poly1305_beforenmbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_curve25519xsalsa20poly1305_noncebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_curve25519xsalsa20poly1305_macbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_curve25519xsalsa20poly1305_messagebytes_max",
         "params": []
     },
@@ -9135,13 +9135,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_curve25519xsalsa20poly1305_boxzerobytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_box_curve25519xsalsa20poly1305_zerobytes",
         "params": []
     },
@@ -9364,13 +9364,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_auth_hmacsha256_bytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_auth_hmacsha256_keybytes",
         "params": []
     },
@@ -9436,7 +9436,7 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_auth_hmacsha256_statebytes",
         "params": []
     },
@@ -9454,7 +9454,7 @@
                 "name": "key"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "keylen"
             }
         ]
@@ -9506,13 +9506,13 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_xof_turboshake256_blockbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_xof_turboshake256_statebytes",
         "params": []
     },
@@ -9542,7 +9542,7 @@
                 "name": "out"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "outlen"
             },
             {
@@ -9614,7 +9614,7 @@
                 "name": "out"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "outlen"
             }
         ]
@@ -9633,7 +9633,7 @@
                 "name": "out"
             },
             {
-                "type": "int",
+                "type": "size_t",
                 "name": "outlen"
             }
         ]
@@ -9645,37 +9645,37 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_sign_statebytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_sign_bytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_sign_seedbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_sign_publickeybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_sign_secretkeybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_sign_messagebytes_max",
         "params": []
     },
@@ -9897,25 +9897,25 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_hsalsa20_outputbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_hsalsa20_inputbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_hsalsa20_keybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_core_hsalsa20_constbytes",
         "params": []
     },
@@ -9944,25 +9944,25 @@
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kx_publickeybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kx_secretkeybytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kx_seedbytes",
         "params": []
     },
     {
         "capture": "function",
-        "return_type": "int",
+        "return_type": "size_t",
         "name": "crypto_kx_sessionkeybytes",
         "params": []
     },
