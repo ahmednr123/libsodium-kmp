@@ -1,0 +1,18 @@
+# VSCode
+.vscode
+
+# Build
+build/
+
+# Idea
+.idea
+*.iml
+
+# Gradle
+.gradle
+local.properties
+.gradletasknamecache
+.cxx
+
+# OS
+.DS_Store
